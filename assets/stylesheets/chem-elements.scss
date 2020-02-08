@@ -1,11 +1,11 @@
 .chem-element {
     background: rgba(255,163,163,.09);
     border-radius: .25em;
-    box-shadow: 0 0 0.1em 0.1em rgba(0,0,0,.05);
+    box-shadow: 0 0 0.1em 0.1em rgba(199, 184, 184, 0.05);
     color: #fff;
     margin-right: .1em;
     padding: .35em .1em .35em .35em;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 
 .chem-element:hover {
@@ -14,12 +14,12 @@
 }
 
 
-.chem-element[element=sodium]::before {
-    content: '11';
+.chem-element[element=lanthanum]::before {
+    content: '57';
     font-size: .45em;
     vertical-align: -.5em;
 }
 
-.chem-element[element="sodium"]:hover {
-    background: #5ba6a9;
+.chem-element[element="lanthanum"]:hover {
+    background: rgb(70, 160, 174);
 }

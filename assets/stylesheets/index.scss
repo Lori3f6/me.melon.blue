@@ -5,6 +5,7 @@
 @import "identities.scss";
 
 @import "chem-elements.scss";
+@import "misc.scss";
 
 body {
     font-size: 1em;
@@ -12,12 +13,12 @@ body {
 }
 
 html {
-    background: url('../images/nat-pants.png');
+    background: url('../images/langua-bg.svg');
     font-family: "Helvetica Neue", Helvetica, Arial, PingFangTC-Light, "Microsoft YaHei", 微软雅黑, "STHeiti Light", STXihei, "华文细黑", Heiti, 黑体, sans-serif;
 }
 
 .copyright {
-    background: #386668;
+    background: rgb(16, 54, 107);
     color: #eee;
     font-size: 0.9em;
     line-height: 2em;
@@ -29,7 +30,7 @@ html {
 }
 
 .acknowledgement {
-    background: #2f8a82;
+    background: rgb(33,109,146);
     color: #eee;
     font-size: 0.9em;
     font-weight: normal;
@@ -39,7 +40,7 @@ html {
 }
 
 .acknowledgement .link {
-    color: #9dddc1;
+    color: rgb(70,160,174);
 }
 
 .main-container {

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="186" viewBox="0 0 108 186">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #10366b;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #46a0ae;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="108" height="186"/>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-2" d="M44.188,60L21.14,53.875,7.262,73.5,5.888,49.4l-22.708-7.31,22.2-8.772L5.222,9.171,20.315,27.853l22.612-7.611L30.056,40.56Z"/>
+  <path id="Polygon_1-2" data-name="Polygon 1" class="cls-2" d="M98.188,153L75.14,146.875,61.262,166.5l-1.374-24.1-22.708-7.31,22.2-8.773-0.156-24.143,15.093,18.682,22.612-7.611L84.056,133.56Z"/>
+  <path id="Polygon_1-3" data-name="Polygon 1" class="cls-2" d="M152.187,60L129.14,53.875,115.262,73.5l-1.374-24.1L91.18,42.087l22.2-8.772L113.222,9.171l15.093,18.682,22.612-7.611L138.056,40.56Z"/>
+</svg>

@@ -1,8 +1,8 @@
 .identity {
     border-bottom: 0.15em solid rgba(0, 0, 0, 0.035);
     display: block;
-    line-height: 1.2em;
-    margin: 0.4em auto;
+    line-height: 2em;
+    margin: 0em auto;
     padding: 0.4em;
     position: relative;
     width: 90%;
@@ -19,8 +19,8 @@
 }
 
 .self-desc p {
-  border-left: 3px solid rgba(56, 102, 104, 0.8); 
-  line-height: 1.8em;
+  border-left: 3px solid rgb(16, 54, 107); 
+  line-height: 1.7em;
   padding-left: 1em;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .identity {
-    transition-duration: .3s;
+    transition-duration: .2s;
 }
 
 .identity:hover {
@@ -38,7 +38,7 @@
 
 .identity .link {
     bottom: 0.5em;
-    color: #386668;
+    color: rgb(70, 27, 74);
     display: inline-block;
     position: absolute;
     right: 0.45em;
@@ -46,7 +46,7 @@
 }
 
 .identity .fa {
-    color: rgba(56, 102, 104, 0.8); 
+    color: rgb(16, 54, 107); 
     font-size: 1.6em;
     text-align: center;
     width: 1.5em;
@@ -78,10 +78,10 @@
 }
 
 .identity-category .title .fa {
-    color: rgba(56, 102, 104, 0.8); 
+    color: rgb(16, 54, 107); 
     margin: 0 0.2em;
     transform: rotateZ(-23deg);
-    transition-duration: .3s;
+    transition-duration: .2s;
 }
 
 .identity-category .title .fa:hover {

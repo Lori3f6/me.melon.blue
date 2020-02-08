@@ -1,5 +1,5 @@
 .header {
-    background: #2f8a82;
+    background: rgb(33,109,146);
     padding-top: 1.6em;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .header .labels .label {
-    background: #223d3d;
-    box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.15);
+    background: rgb(16, 54, 107);
+    box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.2);
     color: #fff;
     display: inline-block;
     font-weight: 300;
@@ -25,11 +25,15 @@
     position: relative;
     margin: 1.2em 0;
     vertical-align: bottom;
-    transition-duration: .3s;
+    transition-duration: .2s;
 }
 
 .header .labels .label:hover {
-    background: #386668;
+    background: rgb(9, 32, 65);
+    color: rgb(233, 250, 255);
+    .content {
+        color: rgb(233, 250, 255);
+    }
 }
 
 .header .labels a.label {
@@ -39,7 +43,7 @@
 .header .labels .label::before {
     color: #fff;
     content: attr(alt);
-    font-size: .5em;
+    font-size: .7em;
     left: 0;
     position: absolute;
     text-shadow: 2px 2px 4px rgba(0,0,0,.25);
@@ -51,7 +55,8 @@
 }
 
 .header .labels .label .content {
-    color: #ccc;
+    color: rgb(255, 255, 255);
+    transition-duration: .2s;
 }
 
 .header .picture {
